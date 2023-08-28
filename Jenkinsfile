@@ -41,7 +41,6 @@ pipeline{
            }	
           }
 {
-    // ...
     stage('Code Coverage') {
         steps {
             sh 'mvn clean cobertura:cobertura'
